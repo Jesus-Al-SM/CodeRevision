@@ -1,8 +1,8 @@
 const baseEndpoint = 'https://api.github.com';
 const usersEndpoint = `${baseEndpoint}/users`;
-const $n = document.querySelector('name');
-const $b = document.querySelector('#blog');
-const $l = document.querySelector('.location');
+const $name = document.querySelector('name');
+const $blog = document.querySelector('#blog');
+const $location = document.querySelector('.location');
 
 function displayUser(username) {
   $n.textContent = 'cargando...';
